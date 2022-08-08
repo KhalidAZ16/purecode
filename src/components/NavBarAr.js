@@ -1,15 +1,35 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/NavBarAr.css";
-// import logo from '../public/logo-index.png';
+import logo from "../images/logo-index.png";
 
-function NavBar_ar() {
+function NavBarAr() {
   return (
     <>
       <nav className="navBar_ar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
-            تغيير للغة الإنقليزية
+
+          <Link to="/en" className="switchAR">
+            English
+          </Link>
+         
+          <Link to="/ar/home" className="navbar-logo">
+            الرئيسية
+          </Link>
+          <Link to="/ar/services">
+            خدماتنا
+          </Link>
+          <Link to="/ar/aboutus" className="aboutusAR">
+            عن الشركة
+          </Link>
+          <Link to="/ar/careers">
+            التوظيف
+          </Link>
+          <Link to="/ar/contactus">
+            تواصل معنا
+          </Link>
+          <Link to="/ar/home" className="navbar-logo">
+            <img src={logo} className="logo" />
           </Link>
         </div>
       </nav>
@@ -17,4 +37,4 @@ function NavBar_ar() {
   );
 }
 
-export default NavBar_ar;
+export default NavBarAr;

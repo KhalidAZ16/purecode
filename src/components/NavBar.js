@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/NavBar.css";
 import logo from "../images/logo-index.png";
@@ -8,14 +8,24 @@ function NavBar() {
     <>
       <nav className="navBar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/en" className="navbar-logo">
             <img src={logo} className="logo" />
+            Home
           </Link>
-          <Link to="/aboutus" className="aboutus">
+          <Link to="/en/contactus">
+            Contact Us
+          </Link>
+          <Link to="/en/services">
+            Services
+          </Link>
+          <Link to="/en/aboutus" className="aboutus">
             About Us
           </Link>
-          <Link to="/Home_ar" className="switch">
-            Switch to Arabic
+          <Link to="/en/careers">
+            Careers
+          </Link>
+          <Link to="/ar/Home" className="switch">
+            عربي
           </Link>
         </div>
       </nav>
