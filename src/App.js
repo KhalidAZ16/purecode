@@ -1,8 +1,10 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import NavBarAr from "./components/NavBarAr";
-// import Footer from "./components/footer";
-// import FooterAr from "./components/footerAr";
+import NavBarAr from "./components/AR/NavBarAr";
+import Services from "./components/Services";
+import ContactUs from "./components/Contact";
+import Footer from "./components/Footer";
+import FooterAr from "./components/AR/FooterAr";
 import {
   BrowserRouter as Router,
   Route,
@@ -11,11 +13,12 @@ import {
 } from "react-router-dom";
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
-import AboutUsAr from "./components/AboutUsAr";
-import HomeAr from "./components/HomeAr";
+import AboutUsAr from "./components/AR/AboutUsAr";
+import HomeAr from "./components/AR/HomeAr";
+import ServicesAr from "./components/AR/ServicesAr";
+import ContactUsAr from "./components/AR/ContactAr";
 
 function App() {
-  // const location = useLocation();
   return (
     <>
       <div className="app">
@@ -43,6 +46,28 @@ function App() {
               </Route>
               <Route exact path="/en/aboutus">
                 <AboutUs />
+              </Route>
+              <Route exact path="/ar/services">
+                <ServicesAr />
+              </Route>
+              <Route exact path="/en/services">
+                <Services />
+              </Route>
+              <Route exact path="/en/contactus">
+                <ContactUs />
+              </Route>
+              <Route exact path="/ar/contactus">
+                <ContactUsAr />
+              </Route>
+            </Switch>
+          </div>
+          <div className="footer">
+            <Switch>
+              <Route path="/ar">
+                <FooterAr />
+              </Route>
+              <Route path="/en">
+                <Footer />
               </Route>
             </Switch>
           </div>

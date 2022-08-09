@@ -22,9 +22,9 @@ function NavBarAr() {
           <Link to="/ar/aboutus" className="aboutusAR">
             عن الشركة
           </Link>
-          <Link to="/ar/careers">
+          {/* <Link to="/ar/careers">
             التوظيف
-          </Link>
+          </Link> */}
           <Link to="/ar/contactus">
             تواصل معنا
           </Link>

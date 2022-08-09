@@ -24,6 +24,7 @@ function Home() {
       </div>
 
       <div className="codingLang">
+        <h1>Programming Languages</h1>
         <img src={logo} alt="company" title="Company Logo"/>
       </div>
 
