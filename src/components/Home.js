@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Home.css";
-import logo from "../images/logo-index.png"
+import logo from "../images/react-logo.png"
 function Home() {
   return (
 
@@ -25,7 +25,7 @@ function Home() {
 
       <div className="codingLang">
         <h1>Programming Languages</h1>
-        <img src={logo} alt="company" title="Company Logo"/>
+        <img src={logo} className="lang1" alt="react" title="React Logo"/>
       </div>
 
       <div className="companies">

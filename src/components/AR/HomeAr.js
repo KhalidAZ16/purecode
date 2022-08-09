@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Home_ar.css";
+import "../../styles/Home_ar.css";
 
 function HomeAr() {
   return(
