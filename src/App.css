@@ -40,3 +40,14 @@
     transform: rotate(360deg);
   }
 }
+:link {
+  text-decoration: none;
+  color: black;
+  
+}
+:visited{
+  text-decoration: none;
+  color: black;
+  
+}
+

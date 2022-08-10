@@ -1,0 +1,99 @@
+.footerMain, .footer-container{
+    background-color: rgba(255, 128, 0, 0.487);
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+
+}
+
+.left-footer{
+    margin-left: 2%;
+    width: 33%;
+    background-color: darkcyan;
+    float: left;
+    display: block;
+}
+.mid-footer{
+    background-color: aquamarine;
+    width: 33%;
+    display: block;
+    float: left;
+}
+.right-footer{
+    background-color: blueviolet;
+    width: 30%;
+    display: block;
+    float: left;
+}
+.footerLogo{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+.footer-logo{
+    margin:0;
+    padding: 0;
+    border-width: 0;
+    display: block;
+    float: left;
+}
+/* .aboutus-footer{
+    margin-top: 0;
+    margin-left: 0;
+    padding: 0;
+    border-width: 0;
+    
+} */
+.top-footer{
+    width: 100%;
+    display: block;
+    float: left;
+}
+.bottom-footer{
+    margin-left: 2%;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.contactInfo h5{
+    margin: 0;
+    border-width: 0;
+}
+.aboutus-footer-list h6 {
+    margin-left: 1em;
+}
+.comp-logo1 img{
+    margin-left: 3em;
+    margin-bottom: 1em;
+    width: 110px;
+    display: block;
+    float: left;
+}
+
+.comp-logo2 img{
+    margin-left: 3em;
+    width: 110px;
+    margin-bottom: 1em;
+    display: block;
+    float: left;
+}
+.comp-logo3 img{
+    margin-left: 3em;
+    width: 110px;
+    margin-bottom: 1em;
+    display: block;
+    float: left;
+}
+.comp-logo4 img{
+    margin-left: 3em;
+    width: 110px;
+    margin-bottom: 1em;
+    display: block;
+    float: left;
+}
+/* .comp-logos :hover, img {
+    width: 300px;
+} */
