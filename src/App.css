@@ -6,7 +6,7 @@
   height: 40vmin;
   pointer-events: none;
   position: fixed;
-  border: 0;
+  border: 1;
 }
 .header{
   justify-items: left;
