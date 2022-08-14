@@ -12,7 +12,7 @@ function Footer() {
     <>
       <div className="footerMain">
         <div className="footer-container">
-          <Link to="/" className="footer-logo">
+          <Link to="/en" className="footer-logo">
             <img src={logo} className="footerLogo" />
           </Link>
           <div className="top-footer">

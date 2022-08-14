@@ -12,19 +12,19 @@ function NavBar() {
             <img src={logo} className="logo" />
             Home
           </Link>
-          <Link to="/en/contactus">
-            Contact Us
+          <Link to="/en/contactus" className="contactEN">
+            Contact 
           </Link>
-          <Link to="/en/services">
+          <Link to="/en/services" className="servicesEN">
             Services
           </Link>
-          <Link to="/en/aboutus" className="aboutus">
-            About Us
+          <Link to="/en/aboutus" className="aboutusEn">
+            About 
           </Link>
-          <Link to="/en/careers">
+          <Link to="/en/careers" className="careersEN">
             Careers
           </Link>
-          <Link to="/ar/Home" className="switch">
+          <Link to="/ar/Home" className="switchEN">
             عربي
           </Link>
         </div>

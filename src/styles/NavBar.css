@@ -1,11 +1,21 @@
 
 .navBar{
     text-align: left;
+    margin-left: 1.5em;
 }
 
 .logo{
-    width: 100px;
+    width: 150px;
 }
 :link{
-    margin-left: 1em; 
+    margin-left: 1em;
+    color: whitesmoke;
+
 }
+
+.switchEN, .careersEN, .aboutusEn , .servicesEN , .contactEN , .navbar-logo{
+    margin-left: 1em;
+    color: whitesmoke;
+    font-size: 15pt;
+}
+
