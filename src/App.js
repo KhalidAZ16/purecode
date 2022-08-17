@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import ContactUs from "./components/Contact";
 import Footer from "./components/Footer";
 import FooterAr from "./components/AR/FooterAr";
+import Career from "./components/Career";
 import {
   BrowserRouter as Router,
   Route,
@@ -40,11 +41,14 @@ function App() {
               <Route exact path="/ar/aboutus">
                 <AboutUsAr />
               </Route>
-              <Route exact path="/en">
+              <Route exact path="/en/home">
                 <Home />
               </Route>
               <Route exact path="/en/aboutus">
                 <AboutUs />
+              </Route>
+              <Route exact path="/en/career">
+                <Career />
               </Route>
               <Route exact path="/ar/services">
                 <ServicesAr />
