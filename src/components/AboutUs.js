@@ -5,7 +5,8 @@ function AboutUs() {
     <>
       <nav>
         <div>
-          <a>Hi</a>
+          <a>Hijjhi</a>
+          
         </div>
       </nav>
     </>
