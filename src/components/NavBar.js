@@ -1,34 +1,50 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "../styles/NavBar.css";
-import logo from "../images/logo-index.png";
+import logo from '../images/logo.svg';
+import {
+  Nav,
+  NavLink,
+  Bars,
+  NavMenu,
+  NavBtn,
+  NavBtnLink
+} from './NavbarElements';
+
+// import logo from "../images/logo-index.png";
 
 function NavBar() {
   return (
     <>
-      <nav className="navBar">
-        <div className="navbar-container">
-          <Link to="/en" className="navbar-logo">
-            <img src={logo} className="logo" />
+      <Nav>
+      <NavLink to='/en/home'>
+          <img src={logo} alt='logo' />
+        </NavLink>
+        <Bars />
+        <NavMenu>
+          {/* 1 */}
+          <NavLink to="/en/home" activeStyle>
             Home
-          </Link>
-          <Link to="/en/contactus" className="contactEN">
-            Contact 
-          </Link>
-          <Link to="/en/services" className="servicesEN">
-            Services
-          </Link>
-          <Link to="/en/aboutus" className="aboutusEn">
-            About 
-          </Link>
-          <Link to="/en/careers" className="careersEN">
+          </NavLink>
+          {/* 2 */}
+          <NavLink to="/en/contactus" activeStyle>
+            Contact Us
+          </NavLink>
+          {/* 3 */}
+          <NavLink to="/en/services" activeStyle>
+            services
+          </NavLink>
+          {/* 4 */}
+          <NavLink to="/en/aboutus" activeStyle>
+            About
+          </NavLink>
+          {/* 5 */}
+          <NavLink to="/en/career" activeStyle>
             Careers
-          </Link>
-          <Link to="/ar/Home" className="switchEN">
-            عربي
-          </Link>
-        </div>
-      </nav>
+          </NavLink>
+        </NavMenu>
+        <NavBtn>
+          <NavBtnLink to='/ar'>عربي</NavBtnLink>
+        </NavBtn>
+      </Nav>
     </>
   );
 }

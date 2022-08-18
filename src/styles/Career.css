@@ -1,0 +1,131 @@
+
+.CareerMain{
+    height: 1800px;
+    background-color: #4EB1BA;
+   
+
+
+}
+
+
+.background {
+    display: block;
+    width: 500px;
+    margin-top: 100px;
+
+}
+.w{
+    width: 1247px;
+    border: #4EB1BA solid 2px;
+
+}
+
+.CareerMain .catch-phrase{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.catch-phrase{
+    margin-left: 400px;
+    margin-top:300px;
+    display: block;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 73, 73);
+}
+.graphic{ 
+    
+    text-align: center;
+font-size: x-large;
+    margin-top: 50px;
+}
+.required{
+
+    word-spacing: 1px;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: large;
+}
+.req{
+
+    word-spacing: 1px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+
+.apply{
+text-align: center;
+margin-left: 23%;
+margin-top: 70px;
+width: 40%;
+}
+.career1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 73, 73);
+    margin-top: 40px;
+}
+
+.line{
+    margin-top: 40px;
+margin-left: 20px;
+}
+
+.rectangle{
+    margin-left: 50px;
+    margin-top: 880px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 73, 73);
+    border-color: rgb(73, 73, 73);
+    border-style: groove;
+    border-radius: 40px;
+    height: 447px;
+  position: absolute;
+    top:0;
+    width: 502px;
+    }
+    
+    .rectangle2{
+        
+        margin-top: 880px;
+        margin-left: 685px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(73, 73, 73);
+    border-style: groove;
+        border-radius: 40px;
+        border-color: rgb(73, 73, 73);
+    height: 447px;
+  position: absolute;
+    top:0;
+    width: 502px;
+    }
+    .rectangle3{
+        margin-top: 1400px;
+        margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 73, 73);
+    border-color: rgb(73, 73, 73);
+    border-style: groove;
+        border-radius: 40px;
+    height: 447px;
+  position: absolute;
+    top:0;
+    width: 502px;
+    }
+
+    .rectangle4{
+        margin-top: 1400px;
+        margin-left: 685px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 73, 73);
+    border-color: rgb(73, 73, 73);
+    border-style: groove; 
+       border-radius: 40px;
+    height: 447px;
+  position: absolute;
+    top:0;
+    width: 502px;
+    }
+

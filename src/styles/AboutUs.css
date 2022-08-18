@@ -2,3 +2,171 @@
     background-color: aqua;
     text-align: right;
 }
+
+.about-us-screen{
+    background-color: #4EB1BA;
+}
+
+.background {
+    display: block;
+    width: 500px;
+    margin-top: 100px;
+
+}
+.w{
+    width: 1247px;
+    border: #4EB1BA solid 2px;
+
+}
+
+.catch-phrase{
+    margin-left: 20px;
+    margin-top:300px;
+    float: left;
+    display: block;
+    font-size: x-large;
+    font-family: cursive;
+    color: rgb(73, 73, 73);
+}
+/* color: #1F2B6C; */
+.planet{
+    margin-right: 30px;
+}
+.vision {
+    color: rgb(73, 73, 73);
+    margin-top: 70px;
+    font-family: cursive;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 1119px;
+}
+.vision-1{
+    margin-top: 30px;
+    color: rgb(73, 73, 73);
+    font-family: cursive;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    }
+
+.who-are-we {
+    color: rgb(73, 73, 73);
+    margin-top: 70px;
+    font-family: cursive;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 101px;
+    width: 1000px;
+}
+.who-1{
+    color: rgb(73, 73, 73);
+    margin-top: 30px;
+    font-family: cursive;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    }
+
+
+.our-team {
+    color: rgb(73, 73, 73);
+    margin-top: 70px;
+    font-family: cursive;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 45px;
+    width: 1119px;
+}
+.team{
+    display: block;
+    margin-left: auto;
+    width: 50%;
+}
+    
+.our-companies {
+    margin-top: 60px;
+    display: block;
+    margin-left: 40px;
+    width: 95%;
+}
+.our-companies1 {
+color: rgb(73, 73, 73);
+margin-top: 20px;
+font-family: cursive;
+align-items: center;
+display:flex;
+flex-direction: column;
+margin-left: 40px;
+width: 1119px;
+}
+.categories-down {
+    color: rgb(73, 73, 73);
+    margin-top: 50px;
+    font-family: cursive;
+    align-items: center;
+    display: flex;
+    flex-direction : column;
+    min-height: 551px;;
+    width: 303px;
+}
+.about {
+    color: rgb(73, 73, 73);
+    font-family: cursive;
+    align-items: center;
+    display: flex;
+    flex-direction : column;
+    min-height: 300px;
+    width: 300px;
+    margin-left: 300px;
+}
+
+.contact-us {
+    color: rgb(73, 73, 73);
+    font-family: cursive;
+    align-items: center;
+    display: flex;
+    flex-direction : column;
+    min-height: 551px;;
+    width: 300px;
+    margin-left: 700px;
+}
+.follow-us {
+    color: rgb(73, 73, 73);
+    font-family: cursive;
+    align-items: center;
+    display: flex;
+    flex-direction : column;
+    min-height: 551px;;
+    width: 300px;
+    margin-left: 1000px;;
+}
+.background {
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 650px;
+    height: auto;
+}
+
+.team {
+    width: 1200px;
+    height: auto;
+}
+.line {
+    width: 1200px;
+    height: auto;
+}
+.pure-code {
+    margin-top: 50px;
+    width: 500px;
+    height: auto;
+    margin-left: 315px;
+    
+}
+
+  

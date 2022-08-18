@@ -1,102 +1,13 @@
 
 .main{
+    background-color: lightcoral;
     text-align: left;
+
 }
 
 ul{
     margin-top: 10px;
 }
-.homeBackdrop{
-    width: 100%;
-}
-.catchPhrase {
-    font-size: 40pt;
-    position: relative;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    
-    color: whitesmoke;
-}
 .lang1{
     width: 150px;
-}
-.codingLang img{
-    width: 100px;
-    margin-right: 1em;
-    margin-left: 1em;
-}
-.top-main{
-    margin-bottom: 10%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: grid;
-    place-items: center;
-}
-/* .top-main p{
-    padding-top: 4em;
-    padding-bottom: 4em;
-    margin: 0;
-    max-width: fit-content;
-    font-size: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-
-} */
-/* .top-main .catchPhrase{
-    position: relative;
-    margin-left: 31%;
-    z-index: 4;
-    background-color: rgba(255, 255, 255, 0.8);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    
-} */
-.top-main h2{
-    margin-left: 3em;
-    font-size: 40pt;
-}
-.whyUs h1{
-    margin-left: 2em;
-    font-size: 30pt;
-    color: whitesmoke;
-
-}
-.whyUs h2{
-    margin-left: 4em;
-    color: whitesmoke;
-
-}
-
-
-.services h1{
-    color: whitesmoke;
-
-    margin-left: 2em;
-    font-size: 30pt;
-}
-.services li{
-    color: whitesmoke;
-
-    margin-left: 5em;
-}
-.codingLang h1{
-    color: whitesmoke;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center
-}
-.codingLang img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Contact.css";
 import { Link } from "react-router-dom";
 // import Map from "../components/map.js";
 
@@ -22,7 +21,7 @@ function ContactUs() {
           {/* Add Whatsapp icon  */}
 
           <h3>
-            E-mail :<a href="mailto:info@purecode.sa" className="emailLink">info@purecode.sa</a>
+            E-mail :<a href="mailto:info@purecode.sa">info@purecode.sa</a>
           </h3>
 
           {/* Add Phone Icon */}
