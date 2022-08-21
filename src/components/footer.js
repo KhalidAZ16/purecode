@@ -1,61 +1,96 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/Footer.css";
-import logo from "../images/logo-index.png";
-import promo from "../images/promo.png";
-import prohost from "../images/prohost.png";
-import tco from "../images/tco.png";
+import logo_index from "../images/logo-index.png";
 import gateway from "../images/gateway.png";
+import prohost from "../images/prohost.png";
+import promo from "../images/promo.png";
+import planet from "../images/planet.png";
+import twitter from "../images/Twitter.svg"
+import instagram from "../images/instagram.svg"
+import facebook from "../images/facebook.svg"
+import line1 from "../images/Line-1.png"
+import whatsapp from "../images/whatsapp.png"
+import phone from "../images/phone.png"
+import mail from "../images/mail.png"
+
+
+
 
 function Footer() {
   return (
-    <>
-      <div className="footerMain">
-        <div className="footer-container">
-          <Link to="/" className="footer-logo">
-            <img src={logo} className="footerLogo" />
-          </Link>
-          <div className="top-footer">
-            {/* Left side */}
-            <div className="left-footer">
-              {/* Add Logo */}
-              <h5 className="aboutus-footer">About Us</h5>
-              <div className="aboutus-footer-list">
-                <h6>about us but in lowercase</h6>
-              </div>
-            </div>
-            {/* Mid  */}
-            <div className="mid-footer">
-              <h5>Services</h5>
-            </div>
-
-            {/* Right */}
-            <div className="right-footer">
-              <h5>Companies</h5>
-              {/* <div className="right-footer-comp"></div> */}
-              <Link to="/" className="comp-logo1">
-                <img src={promo} className="company1" />
-              </Link>
-              <Link to="/" className="comp-logo2">
-                <img src={prohost} className="company2" />
-              </Link>
-              <Link to="/" className="comp-logo3">
-                <img src={tco} className="company3" />
-              </Link>
-              <Link to="/" className="comp-logo4">
-                <img src={gateway} className="company4" />
-              </Link>
-            </div>
-          </div>
-          <div className="bottom-footer">
-            <div className="contactInfo">
-              <h5>Contact Us</h5>
-              <h5>phone number : 920010406</h5>
-            </div>
-          </div>
+    <div className="container">
+      <div className="row">
+        <div className="footer-col">
+          <ul>
+            <li><img src={logo_index} className="lang1"/></li>
+            <li>A Branch of:</li>
+            <li><img src={planet} className="lang1"/></li>
+          </ul>    
         </div>
+        <div className="footer-col">
+          <h4>
+            PureCode
+          </h4>
+          <ul>
+            <li><a href="/en/aboutus">About Us</a></li>
+            <li><a href="/en/contactus">Careers</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+          </ul>    
+        </div>
+
+        <div className="footer-col">
+<h4>Contact us</h4>
+
+<ul>
+            <li><a href="mailto:info@purecode.sa?subject=Testing out mailto!"><img src={mail} className="mailLogo" />
+              :                  info@purecode.sa</a> </li>
+
+              <li><a href="tel:+966566900074"><img src={phone} className="phoneLogo" />
+              :                  Call us</a> </li>
+
+              <li><a href="https://wa.me/+966566900074"><img src={whatsapp} className="whatsappLogo" />
+              :                 Click to chat </a> </li>
+          </ul>    
+
+        </div>
+           
+        {/* <div className="footer-col">
+          <h4>
+            Services
+          </h4>
+          <ul>
+            <li><a href="#">Service 1</a></li>
+            <li><a href="#">Service 2</a></li>
+            <li><a href="#">Cont...</a></li>
+          </ul>    
+        </div> */}
+        <div className="footer-col">
+          
+              <h4>Follow us</h4>
+              <ul>
+              <li><a href="#"><img className="twitter" src={twitter} />
+              /PureCodeSA</a></li>
+           
+              <li><a href="#"> <img className="insta" src={instagram} />
+              /PureCodeSA</a></li>
+             
+              <li><a href="#"><img className="facebook" src={facebook} />
+              /PureCodeSA</a></li>
+            
+            </ul>
+                        
+        </div>  
       </div>
-    </>
+      <hr/>
+      <div className="footer-line">
+      
+      <li>
+        &copy;All right reserved for PureCode {new Date().getFullYear()}
+      </li>
+      </div>
+      
+    </div>
   );
 }
 

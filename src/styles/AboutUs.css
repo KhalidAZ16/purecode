@@ -2,3 +2,159 @@
     background-color: aqua;
     text-align: right;
 }
+
+.about-us-screen{
+    background-color: #00A89D;
+}
+
+/* color: #1F2B6C; */
+.planet{
+    margin-right: 30px;
+}
+.vision {
+    color: white;
+    margin-top: 40px;
+    font-family: cursive;
+align-items: center;
+display:flex;
+flex-direction: column;
+margin-left: 4px;
+width: 1119px;
+}
+.vision-1{
+    margin-top: 30px;
+    color: white;
+    font-family: cursive;
+text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    }
+
+.who-are-we {
+    color: white;
+
+    margin-top: 50px;
+    font-family: cursive;
+align-items: center;
+display:flex;
+flex-direction: column;
+margin-left: 75px;
+width: 1000px;
+}
+.who-1{
+    color: white;
+margin-top: 30px;
+    font-family: cursive;
+text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    }
+
+
+.our-team {
+    color: white;
+
+    margin-top: 40px;
+    font-family: cursive;
+align-items: center;
+display:flex;
+flex-direction: column;
+margin-left: 4px;
+width: 1119px;
+}
+.team{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+    
+.our-companies {
+    margin-top: 60px;
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+    width: 95%;
+}
+.our-companies1 {
+    color: white;
+margin-top: 20px;
+font-family: cursive;
+align-items: center;
+display:flex;
+flex-direction: column;
+margin-left: 4px;
+
+width: 1119px;
+}
+.categories-down {
+    color: white;
+
+    margin-top: 50px;
+    font-family: cursive;
+align-items: center;
+display: flex;
+flex-direction : column;
+min-height: 551px;;
+width: 303px;
+}
+.about {
+    color: white;
+
+    font-family: cursive;
+align-items: center;
+
+display: flex;
+flex-direction : column;
+min-height: 300px;
+width: 300px;
+margin-left: 300px;
+}
+
+.contact-us {
+    color: white;
+
+    font-family: cursive;
+align-items: center;
+display: flex;
+flex-direction : column;
+min-height: 551px;;
+width: 300px;
+margin-left: 700px;
+}
+.follow-us {
+    color: white;
+
+    font-family: cursive;
+align-items: center;
+display: flex;
+flex-direction : column;
+min-height: 551px;;
+width: 300px;
+margin-left: 1000px;;
+}
+.background {
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 650px;
+    height: auto;
+}
+
+.team {
+    width: 1200px;
+    height: auto;
+}
+.line {
+    width: 1200px;
+    height: auto;
+}
+.pure-code {
+    margin-top: 50px;
+    width: 500px;
+    height: auto;
+    margin-left: 315px;
+    
+}
+
+  

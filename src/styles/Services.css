@@ -1,0 +1,75 @@
+
+
+.services-screen{
+    background-color: #ffffff;
+}
+
+.serv-bord{
+    background-color: #ffffff;
+    border: 300px solid #00A89D;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.bg{
+    margin-top: 50px;
+    width: 800px;
+    margin-left: 200px;
+    height: auto;
+}
+
+.title{
+    color: rgb(24, 24, 24);
+    margin-top: 40px;
+    font-family: Calibri;
+align-items: left;
+display:flex;
+flex-direction: column;
+margin-left: 125px;
+width: 1119px;
+}
+
+
+
+.our-ser{
+    color: rgb(24, 24, 24);
+
+    margin-top: 50px;
+    font-family: Calibri;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 75px;
+    width: 1000px;
+}
+
+.serv-des{
+    color: rgb(24, 24, 24);
+    margin-top: 30px;
+    font-family: Calibri;
+    text-align: center;
+    justify-content:center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.bus-type{
+    color: rgb(24, 24, 24);
+    font-family: Calibri;
+    margin-left: 411px;
+    margin-top: 10px;
+}
+
+.last-des{
+    color: rgb(24, 24, 24);
+    margin-top: 30px;
+    margin-bottom: 100px;
+    font-family: Calibri;
+    text-align: center;
+    justify-content:center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+

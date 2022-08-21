@@ -1,0 +1,26 @@
+.contactContainer{
+    background-image: url("../images/contact-background.jpg");
+  background-repeat: no-repeat ;
+  background-size: 100% auto;
+}
+.contactUs{
+    border: black 2px solid;
+    display: inline-block;
+    width: 40%;
+}
+.contactForm{
+    border: black 2px solid;
+    display: inline-block; 
+    width: 50%;  
+}
+.contactUs h1 {
+    font-size: 60pt;
+}
+.contactContainer{
+    justify-items: center;
+}
+.location h3 a{
+    font-size: 25pt;
+    color: black;
+    text-decoration: none;
+}

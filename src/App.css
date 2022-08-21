@@ -8,6 +8,9 @@
   position: fixed;
   border: 1;
 }
+div.navbar{
+  position: sticky;
+}
 .header{
   justify-items: left;
 }

@@ -1,53 +1,125 @@
 .footerMain, .footer-container{
-    background-color: rgba(255, 128, 0, 0.487);
+    
+    background-color: #00A89D;
     font-size: 1.2rem;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding:0;
     border-width: 0;
-
+   
+}
+.whatsappLogo{
+    margin-bottom: -7px;
+    margin-right: 10px;
+    width: 27px;
+    height: auto;
+}
+.phoneLogo{
+    margin-bottom: -7px;
+    margin-right: 10px;
+    width: 27px;
+    height: auto;
+}
+.mailLogo{
+    margin-bottom: -7px;
+    margin-right: 10px;
+    width: 27px;
+    height: auto;
 }
 
-.left-footer{
-    margin-left: 2%;
-    width: 33%;
-    background-color: darkcyan;
+a[href^="mailto"] { color: white;
+    text-decoration: underline;
+     }
+a[href^="https"] { color: white;
+        text-decoration: underline;
+                 }
+
+a[href^="tel:+966566900074"] 
+{ color: white;
+    
+  text-decoration: underline;
+  
+             }
+
+.twitter{
+    margin-bottom: -10px;
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+}
+.insta{
+    margin-bottom: -10px;
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+}
+.facebook{
+    margin-bottom: -10px;
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+}
+
+.left-footer{   
+    height: 350px;
+    color: white;
+    font-family: cursive;
+    width: 311px;
+    background-color: #00A89D;
     float: left;
     display: block;
 }
 .mid-footer{
-    background-color: aquamarine;
-    width: 33%;
+    height: 350px;
+
+    color: white;
+    font-family: cursive;
+    background-color: #00A89D;
+    width: 312px;
     display: block;
     float: left;
 }
 .right-footer{
-    background-color: blueviolet;
-    width: 30%;
+    height: 350px;
+
+    color: white;
+    font-family: cursive;
+    background-color: #00A89D;
+    width: 312px;
     display: block;
     float: left;
 }
+.rright-footer{
+
+    height: 350px;
+
+    color: white;
+    font-family: cursive;
+    background-color: rgb(31, 31, 31);
+    width: 312px;
+    display: block;
+    float: left;
+}
+
 .footerLogo{
-    width: 150px;
-    margin: 0;
+    margin-top: 50px;
+    background-color: #00A89D;
+    width: 1247px;
     padding: 0;
     border-width: 0;
 }
 .footer-logo{
+        background-color: #00A89D;
+width: 1247px;
     margin:0;
     padding: 0;
     border-width: 0;
     display: block;
     float: left;
 }
-/* .aboutus-footer{
-    margin-top: 0;
-    margin-left: 0;
-    padding: 0;
-    border-width: 0;
-    
-} */
+
 .top-footer{
+    
     width: 100%;
     display: block;
     float: left;
@@ -65,6 +137,10 @@
 .aboutus-footer-list h6 {
     margin-left: 1em;
 }
+.aboutus-footer {
+    margin-left: 1em;
+}
+
 .comp-logo1 img{
     margin-left: 3em;
     margin-bottom: 1em;
@@ -94,6 +170,87 @@
     display: block;
     float: left;
 }
+.footer-line{
+    color:#ffffff;
+    list-style: none;
+    margin-top: 15px;
+    font-family: cursive;
+
+}
 /* .comp-logos :hover, img {
     width: 300px;
 } */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    
+}
+.footer-line{
+    color:#ffffff;
+    list-style: none;
+    margin-top: 15px;
+}
+.row{
+    display: flex;
+    color: whitesmoke;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+ul{
+    list-style: none;
+}
+.lang1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #222930;
+    padding:70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: rgb(73, 73, 73);
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: cyan;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 1opx;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block; 
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: cyan;
+    padding-left: 10px;
+}
