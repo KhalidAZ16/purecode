@@ -43,13 +43,13 @@ function Services() {
               </h3>
             </div>
             <div className="bus-type">
-              <h3>Business to consumer (B2C)</h3>
+              <h3>Business to consumer (B2C).</h3>
 
-              <h3>Business to business (B2B)</h3>
+              <h3>Business to business (B2B).</h3>
 
-              <h3>Consumer to consumer (C2C)</h3>
+              <h3>Consumer to consumer (C2C).</h3>
 
-              <h3>Consumer to business (C2B)</h3>
+              <h3>Consumer to business (C2B).</h3>
             </div>
 
             <div className="title">
@@ -80,7 +80,7 @@ function Services() {
                 function, they still manage to provide users with quality
                 services and experiences. <br />
                 Purecode can develop a mobile app for you just give us the idea
-                and we can make it to an application
+                and we can make it to an application.
               </h3>
             </div>
 
@@ -96,7 +96,7 @@ function Services() {
                 <br />
                 Purecode team can make the software you want or improve the
                 software you got and with the programming language you want and
-                the game engine you want .
+                the game engine you want.
               </h3>
             </div>
 

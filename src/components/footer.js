@@ -25,7 +25,7 @@ function Footer() {
             </li> */}
             <li>A Branch of:</li>
             <li>
-              <img src={planet} className="lang1" />
+              <img src={planet} className="planetLogoFooter" />
             </li>
           </ul>
         </div>
