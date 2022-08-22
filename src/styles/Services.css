@@ -2,11 +2,16 @@
 
 .services-screen{
     background-color: #ffffff;
+    text-align: center;
+    justify-content:center;
+    
 }
 
 .serv-bord{
     background-color: #ffffff;
-    border: 300px solid #00A89D;
+    border: 20em solid #00A89D;
+    border-top-width: 100px ;
+    border-top-width: 100px ;
     padding: 0px;
     margin: 0px;
   }
@@ -14,7 +19,8 @@
 .bg{
     margin-top: 50px;
     width: 800px;
-    margin-left: 200px;
+    text-align: center;
+    justify-content:center;
     height: auto;
 }
 
@@ -22,11 +28,11 @@
     color: rgb(24, 24, 24);
     margin-top: 40px;
     font-family: Calibri;
-align-items: left;
-display:flex;
-flex-direction: column;
-margin-left: 125px;
-width: 1119px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    width: 1119px;
 }
 
 
@@ -39,7 +45,8 @@ width: 1119px;
     align-items: center;
     display:flex;
     flex-direction: column;
-    margin-left: 75px;
+    text-align: center;
+    justify-content:center;
     width: 1000px;
 }
 
@@ -55,7 +62,8 @@ width: 1119px;
 .bus-type{
     color: rgb(24, 24, 24);
     font-family: Calibri;
-    margin-left: 411px;
+    text-align: center;
+    justify-content:center;
     margin-top: 10px;
 }
 
