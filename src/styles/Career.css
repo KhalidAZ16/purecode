@@ -1,103 +1,116 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap'); */
+.CareerMain {
+  height: 1750px;
+  background-color: #4eb1ba;
+  font-family: "Consolas", "Courier New", monospace;
+}
+.background-career {
+  margin-top: 3em;
+  display: inline-block;
+  /* position: fixed; */
+  width: 50%;
+  float: right;
+  height: auto;
+  padding-right: 7em;
+  padding-bottom: 4em;
+}
+.graphic {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 50px;
+}
+.required {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: large;
+}
+.top-career {
+  display: block;
+  height: 40%;
+}
+.apply {
+  text-align: center;
+  margin-left: 20%;
+  margin-top: 3em;
+  width: 40%;
+}
+.career1 h3 {
+  display: block;
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(73, 73, 73);
+  margin-top: 10px;
+  margin-left: 40%;
+}
+.catch-phrase {
+  padding-top: 10em;
+  display: inline-block;
+  padding-left: 4em;
+  font-size: x-large;
+  color: rgb(73, 73, 73);
+}
+.line1 {
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 98%;
+}
 
-.CareerMain{
-    height: 1750px;
-    background-color: #4EB1BA;
-
-
-}
-.background {
-    margin-top: 50px;
-    width: 500px;
-    height: auto;
-}
-.graphic{ 
-    
-    text-align: center;
-font-size: x-large;
-    margin-top: 50px;
-}
-.required{
-    margin-top: 40px;
-    margin-left: 60px;
-    font-size: large;
+.rectangle {
+  width: 40%;
+  height: 53%;
+  margin-left: 8em;
+  margin-top: 4em;
+  color: rgb(73, 73, 73);
+  border-color: rgb(73, 73, 73);
+  border-style: groove;
+  border-radius: 40px;
+  position: relative;
+  top: 0;
+  display: inline-block;
 }
 
-.apply{
-text-align: center;
-margin-left: 25%;
-margin-top: 15px;
-width: 40%;
+.rectangle2 {
+    width: 40%;
+    height: 53%;
+    margin-left: 4em;
+    margin-top: 4em;
+    float: left;
+  color: rgb(73, 73, 73);
+  border-style: groove;
+  border-radius: 40px;
+  border-color: rgb(73, 73, 73);
+  position: relative;
+  top: 0;
 }
-.career1{
-    text-align: center;
-    font-size: xx-large;
-    font-family: cursive;
+.rectangle3 {
+  width: 40%;
+  height: 53%;
+  margin-left: 8em;
+  margin-top: 4em;
+  color: rgb(73, 73, 73);
+  border-color: rgb(73, 73, 73);
+  border-style: groove;
+  border-radius: 40px;
+  position: relative;
+  top: 0;
+  display: inline-block;
+}
+
+.rectangle4 {
+    width: 40%;
+    height: 53%;
+    margin-left: 4em;
+    margin-top: 4em;
+    float: left;
     color: rgb(73, 73, 73);
-    margin-top: 10px;
+  border-color: rgb(73, 73, 73);
+  border-style: groove;
+  border-radius: 40px;
+  position: relative;
+  top: 0;
 }
-.catch-phrase{
-    font-size: x-large;
-    font-family: cursive;
-    color: rgb(73, 73, 73);
+.bottom-career {
+  display: block;
+  height: 40%;
 }
-.line{
-    margin-top: 20px;
-margin-left: 20px;
-}
-
-.rectangle{
-    margin-left: 50px;
-    margin-top: 750px;
-    font-family: cursive;
-    color: rgb(73, 73, 73);
-    border-color: rgb(73, 73, 73);
-    border-style: groove;
-    border-radius: 40px;
-    height: 447px;
-  position: absolute;
-    top:0;
-    width: 502px;
-    }
-    
-    .rectangle2{
-        
-        margin-top: 750px;
-        margin-left: 685px;
-    font-family: cursive;
-    color:rgb(73, 73, 73);
-    border-style: groove;
-        border-radius: 40px;
-        border-color: rgb(73, 73, 73);
-    height: 447px;
-  position: absolute;
-    top:0;
-    width: 502px;
-    }
-    .rectangle3{
-        margin-top: 1300px;
-        margin-left: 50px;
-    font-family: cursive;
-    color: rgb(73, 73, 73);
-    border-color: rgb(73, 73, 73);
-    border-style: groove;
-        border-radius: 40px;
-    height: 447px;
-  position: absolute;
-    top:0;
-    width: 502px;
-    }
-
-    .rectangle4{
-        margin-top: 1300px;
-        margin-left: 685px;
-    font-family: cursive;
-    color: rgb(73, 73, 73);
-    border-color: rgb(73, 73, 73);
-    border-style: groove; 
-       border-radius: 40px;
-    height: 447px;
-  position: absolute;
-    top:0;
-    width: 502px;
-    }
-

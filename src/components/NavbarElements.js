@@ -1,9 +1,9 @@
-import { FaBars } from 'react-icons/fa';
-import { NavLink as Link } from 'react-router-dom';
-import styled from 'styled-components';
+import { FaBars } from "react-icons/fa";
+import { NavLink as Link } from "react-router-dom";
+import styled from "styled-components";
 
 export const Nav = styled.nav`
-  background: rgb(121,121,121);
+  background-color: #222930;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -26,7 +26,6 @@ export const NavLink = styled(Link)`
   &.active {
     text-decoration: underline;
     text-decoration-color: cyan;
-
   }
   &:hover {
     color: cyan;
@@ -81,7 +80,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
-  background: #256ce1;
+  background: #00A89D;
   padding: 10px 22px;
   color: #fff;
   outline: none;

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../images/logo.svg';
+import logo from '../images/new-purecode.png';
 import {
   Nav,
   NavLink,
@@ -16,7 +16,7 @@ function NavBar() {
     <>
       <Nav>
       <NavLink to='/en/home'>
-          <img src={logo} alt='logo' />
+          <img src={logo} alt='logo' style={{width: '90px', }}/>
         </NavLink>
         <Bars />
         <NavMenu>
@@ -26,7 +26,7 @@ function NavBar() {
           </NavLink>
           {/* 2 */}
           <NavLink to="/en/contactus" activeStyle>
-            Contact Us
+            Contact
           </NavLink>
           {/* 3 */}
           <NavLink to="/en/services" activeStyle>
